@@ -99,13 +99,9 @@
 		846558DE2693892200BFED33 /* Marvel-App */ = {
 			isa = PBXGroup;
 			children = (
-				846558DF2693892200BFED33 /* AppDelegate.swift */,
-				846558E12693892200BFED33 /* SceneDelegate.swift */,
-				846558E32693892200BFED33 /* ViewController.swift */,
-				846558E52693892200BFED33 /* Main.storyboard */,
-				846558E82693892500BFED33 /* Assets.xcassets */,
-				846558EA2693892500BFED33 /* LaunchScreen.storyboard */,
-				846558ED2693892500BFED33 /* Info.plist */,
+				84A73B652695F1FC00970C38 /* App */,
+				84A73B672695F23500970C38 /* Resources */,
+				84A73B662695F20800970C38 /* Features */,
 			);
 			path = "Marvel-App";
 			sourceTree = "<group>";
@@ -126,6 +122,82 @@
 				846559032693892500BFED33 /* Info.plist */,
 			);
 			path = "Marvel-AppUITests";
+			sourceTree = "<group>";
+		};
+		84A73B652695F1FC00970C38 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				846558ED2693892500BFED33 /* Info.plist */,
+				846558DF2693892200BFED33 /* AppDelegate.swift */,
+				846558E12693892200BFED33 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		84A73B662695F20800970C38 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				84A73B6C2695F40F00970C38 /* Home */,
+				84A73B6B2695F3E600970C38 /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		84A73B672695F23500970C38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				846558E82693892500BFED33 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84A73B6B2695F3E600970C38 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				84A73B6D2695F4A600970C38 /* Views */,
+				84A73B6E2695F4C900970C38 /* Controllers */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		84A73B6C2695F40F00970C38 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84A73B702695F50300970C38 /* Views */,
+				84A73B6F2695F4E700970C38 /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84A73B6D2695F4A600970C38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846558EA2693892500BFED33 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84A73B6E2695F4C900970C38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84A73B6F2695F4E700970C38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				846558E32693892200BFED33 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84A73B702695F50300970C38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846558E52693892200BFED33 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Y7264B3FK;
-				INFOPLIST_FILE = "Marvel-App/Info.plist";
+				INFOPLIST_FILE = "Marvel-App/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +529,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Y7264B3FK;
-				INFOPLIST_FILE = "Marvel-App/Info.plist";
+				INFOPLIST_FILE = "Marvel-App/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
