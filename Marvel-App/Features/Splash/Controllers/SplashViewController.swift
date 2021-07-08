@@ -47,7 +47,8 @@ class SplashViewContrller: UIViewController {
      //                         sender: nil)
             
      
-    //      Navegación manual tener en cuenta setViewController para vaciar la pila de navegación. Con pushView... se haria navegación normal
+    //      Navegación manual tener en cuenta setViewController para vaciar la pila de navegación. Con pushView... se haría navegación normal
+    //      y se le pasaría un ViewControler
             
             let storyboardHome = UIStoryboard(name: "Home",
                                               bundle: nil)

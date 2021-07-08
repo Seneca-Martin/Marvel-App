@@ -23,20 +23,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OxA-m8-kFr" secondAttribute="trailing" id="8Iq-vl-lg3"/>
-                            <constraint firstItem="OxA-m8-kFr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="OGi-R4-fZl"/>
-                            <constraint firstAttribute="bottom" secondItem="OxA-m8-kFr" secondAttribute="bottom" id="cJo-cb-Wue"/>
-                            <constraint firstItem="OxA-m8-kFr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="frt-N6-HPm"/>
+                            <constraint firstAttribute="bottom" secondItem="OxA-m8-kFr" secondAttribute="bottom" id="fyP-hs-oyd"/>
+                            <constraint firstItem="OxA-m8-kFr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="hQS-Cb-NuV"/>
+                            <constraint firstItem="OxA-m8-kFr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qXB-tC-sMm"/>
+                            <constraint firstItem="OxA-m8-kFr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zTr-wc-uaC"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="img_bck_launch" width="128" height="128"/>
+        <image name="img_bck_launch" width="250" height="541.33331298828125"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
