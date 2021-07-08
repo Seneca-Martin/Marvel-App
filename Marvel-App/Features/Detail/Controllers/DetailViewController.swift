@@ -13,7 +13,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var heroImage: UIImageView!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var power: UILabel!
-//    @IBOutlet var description: UILabel!
+    @IBOutlet var descripcion: UILabel!
     
     // MARK: - Public properties
     var metahuman: Metahuman?
@@ -27,7 +27,7 @@ class DetailViewController: UIViewController {
             update(image: metahuman?.image)
             update(name: metahuman?.name)
             update(power: metahuman?.power)
-       //     update(description: metahuman?.description)
+            update(descripcion: metahuman?.descripcion)
         }
     
 
@@ -37,7 +37,7 @@ class DetailViewController: UIViewController {
         update(image: metahuman.image)
         update(name: metahuman.name)
         update(power: metahuman.power)
-     //   update(description: metahuman.description)
+        update(descripcion: metahuman.descripcion)
         
     }
     
@@ -54,7 +54,7 @@ class DetailViewController: UIViewController {
         self.power.text = "Poder: \(String(describing: power ?? 0))"
     }
     
- //   private func update(description: String?) {
- //       self.description.text = "Esto no es"
- //   }
+    private func update(descripcion: String?) {
+        self.descripcion.text = descripcion
+    }
 }

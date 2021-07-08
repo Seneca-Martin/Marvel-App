@@ -12,6 +12,6 @@ typealias Metahumans = [Metahuman]
 struct Metahuman {
     var image: String?
     var name: String
-    var description: String
+    var descripcion: String
     var power: Float = 0.0
 }

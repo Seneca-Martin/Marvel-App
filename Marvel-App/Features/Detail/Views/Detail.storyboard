@@ -45,7 +45,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9S6-va-5u1">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9S6-va-5u1">
                                                 <rect key="frame" x="0.0" y="387" width="41.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -78,6 +78,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="descripcion" destination="9S6-va-5u1" id="ja7-83-LRY"/>
                         <outlet property="heroImage" destination="YjV-em-GRF" id="Qk8-gC-vmQ"/>
                         <outlet property="name" destination="6NQ-4T-ID0" id="rrI-vh-Zgh"/>
                         <outlet property="power" destination="EgP-3B-dWF" id="A71-aB-sgN"/>
