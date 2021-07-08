@@ -17,7 +17,7 @@ class HeroTableViewCell: UITableViewCell {
     @IBOutlet weak var power: UILabel!
     
     
-    // MARK: Lifecycle
+    // MARK: -Lifecycle
     
     // Se llama cuando se crea la celda
     override func awakeFromNib() {
@@ -50,7 +50,6 @@ class HeroTableViewCell: UITableViewCell {
         update(image: metahuman.image)
         update(name: metahuman.name)
         update(power: metahuman.power)
-        
     }
     
     
@@ -62,8 +61,7 @@ class HeroTableViewCell: UITableViewCell {
         self.name.text = name
     }
     
-    private func update(power: Float) {
-        self.power.text = "Poder: \(String(describing: power))"
+    private func update(power: Float?) {
+        self.power.text = "Poder: \(String(describing: power ?? 0))"
     }
-    
 }

@@ -16,6 +16,9 @@ class HomeTableViewController: UIViewController {
     private let metaHumanRepository = MetahummanRepository()
     private var metaHumans: Metahumans = []
     
+    private let segueToDetail = "SEGUE_FROM_HOME_TO_DETAIL"
+    
+    
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +29,16 @@ class HomeTableViewController: UIViewController {
         
         loadData()
         tableView.reloadData()
+    }
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? DetailViewController,
+              let metahumanSelected = sender as? Metahuman else {
+            return
+        }
+        
+        destination.metahuman = metahumanSelected
     }
     
     private func loadData() {
@@ -50,5 +63,25 @@ extension HomeTableViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         return cell ?? UITableViewCell()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row < metaHumans.count {
+           let metahuman = metaHumans[indexPath.row]
+            
+            // Navegando con SEGUE
+            performSegue(withIdentifier: segueToDetail,
+                         sender: metahuman)
+            
+            
+            // Para hacerlo sin SEGUE
+//            let storyboardHome = UIStoryboard(name: "Detail",
+//                                              bundle: nil)
+//            if let destination = storyboardHome.instantiateInitialViewController() as? DetailViewController {
+//                destination.metahuman = metahuman
+//                navigationController?.pushViewController(destination,
+//                                                         animated: true)
+//            }
+        }
     }
 }

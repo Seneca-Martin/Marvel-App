@@ -16,19 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bck_launch" translatesAutoresizingMaskIntoConstraints="NO" id="4w3-PQ-6HN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bck_launch" translatesAutoresizingMaskIntoConstraints="NO" id="4w3-PQ-6HN">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Ofq-3S-Vl1">
-                                <rect key="frame" x="188" y="429" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Ofq-3S-Vl1">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="4w3-PQ-6HN" secondAttribute="bottom" id="0oY-AJ-OSa"/>
+                            <constraint firstItem="Ofq-3S-Vl1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FpH-qt-El7"/>
                             <constraint firstItem="4w3-PQ-6HN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KnF-kR-uJj"/>
+                            <constraint firstItem="Ofq-3S-Vl1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NnL-Se-x9J"/>
                             <constraint firstItem="4w3-PQ-6HN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tEz-SK-6bj"/>
                             <constraint firstItem="4w3-PQ-6HN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yXx-h8-UY2"/>
                         </constraints>

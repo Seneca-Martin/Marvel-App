@@ -11,29 +11,30 @@
         <!--Villanos-->
         <scene sceneID="r6f-Oz-IIc">
             <objects>
-                <viewController id="0gf-E6-Crj" sceneMemberID="viewController">
+                <viewController title="Villanos" id="0gf-E6-Crj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t0a-jL-eUQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="CF4-5J-3MY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Villanos" image="ic_tab_villain" id="8fY-CD-XOA"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pu5-7c-YI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="283" y="266"/>
         </scene>
-        <!--Heroess-->
+        <!--Heroes-->
         <scene sceneID="H90-O2-gCO">
             <objects>
-                <viewController id="4hi-cq-Y7k" customClass="HomeTableViewController" customModule="Marvel_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Heroes" id="4hi-cq-Y7k" customClass="HomeTableViewController" customModule="Marvel_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8gJ-yp-Upq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Nw6-Kl-7Sm">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <color key="separatorColor" systemColor="systemGrayColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HeroTableViewCell" rowHeight="226" id="Xcl-KO-Ugj" customClass="HeroTableViewCell" customModule="Marvel_App" customModuleProvider="target">
@@ -50,20 +51,20 @@
                                                             <rect key="frame" x="6" y="6" width="362" height="180"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FtL-uP-0zn">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="362" height="159.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="362" height="158"/>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-sG-Vw3">
-                                                                    <rect key="frame" x="0.0" y="165.5" width="362" height="14.5"/>
+                                                                    <rect key="frame" x="0.0" y="164" width="362" height="16"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upS-ci-2z1">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="231" height="14.5"/>
-                                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                            <nil key="textColor"/>
-                                                                            <nil key="highlightedColor"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="229" height="16"/>
+                                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                                            <color key="textColor" systemColor="systemGrayColor"/>
+                                                                            <color key="highlightedColor" systemColor="labelColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suv-81-kQX">
-                                                                            <rect key="frame" x="331" y="0.0" width="31" height="14.5"/>
-                                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                            <rect key="frame" x="329" y="0.0" width="33" height="16"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                             <color key="textColor" systemColor="systemPinkColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -116,13 +117,25 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Heroess" image="ic_tab_heroes" id="0MN-Zf-uLF"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="tableView" destination="Nw6-Kl-7Sm" id="Me7-yM-M0i"/>
+                        <segue destination="4CU-pY-nG2" kind="show" identifier="SEGUE_FROM_HOME_TO_DETAIL" id="8TH-gD-oZf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GnI-QN-7x3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="282.60869565217394" y="-393.08035714285711"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="5ar-aU-hbf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Detail" id="4CU-pY-nG2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cHr-N3-6Ca"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYi-qR-GME" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123" y="-137"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ynP-Oa-5iQ">
@@ -146,6 +159,9 @@
     <resources>
         <image name="ic_tab_heroes" width="16" height="17"/>
         <image name="ic_tab_villain" width="11" height="17"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

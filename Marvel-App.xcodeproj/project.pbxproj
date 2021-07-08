@@ -17,6 +17,8 @@
 		846559022693892500BFED33 /* Marvel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846559012693892500BFED33 /* Marvel_AppUITests.swift */; };
 		84AAC6D6269635B8001BCD67 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AAC6D5269635B8001BCD67 /* Home.storyboard */; };
 		84AB55F32696F746001D7476 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB55F22696F746001D7476 /* HeroTableViewCell.swift */; };
+		84AB560126978B3B001D7476 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB560026978B3B001D7476 /* DetailViewController.swift */; };
+		84AB560926979520001D7476 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB560826979520001D7476 /* Detail.storyboard */; };
 		84CF18072695FF7B003C78D1 /* Marvel_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF18062695FF7B003C78D1 /* Marvel_model.swift */; };
 		84CF180D269602E1003C78D1 /* MetahumanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF180C269602E1003C78D1 /* MetahumanRepository.swift */; };
 		84CF181526961708003C78D1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CF181426961708003C78D1 /* SplashViewController.swift */; };
@@ -56,6 +58,8 @@
 		846559032693892500BFED33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AAC6D5269635B8001BCD67 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		84AB55F22696F746001D7476 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		84AB560026978B3B001D7476 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84AB560826979520001D7476 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		84CF18062695FF7B003C78D1 /* Marvel_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_model.swift; sourceTree = "<group>"; };
 		84CF180C269602E1003C78D1 /* MetahumanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetahumanRepository.swift; sourceTree = "<group>"; };
 		84CF181426961708003C78D1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 		84A73B662695F20800970C38 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				84AB55FD26978AC7001D7476 /* Detail */,
 				84A73B6C2695F40F00970C38 /* Home */,
 				84A73B6B2695F3E600970C38 /* Splash */,
 			);
@@ -220,6 +225,31 @@
 				84AB55F22696F746001D7476 /* HeroTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		84AB55FD26978AC7001D7476 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				84AB55FE26978ADC001D7476 /* Views */,
+				84AB55FF26978AEE001D7476 /* Controllers */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		84AB55FE26978ADC001D7476 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84AB560826979520001D7476 /* Detail.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84AB55FF26978AEE001D7476 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84AB560026978B3B001D7476 /* DetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		84CF18042695FE9A003C78D1 /* Domain */ = {
@@ -353,6 +383,7 @@
 				846558EC2693892500BFED33 /* LaunchScreen.storyboard in Resources */,
 				846558E92693892500BFED33 /* Assets.xcassets in Resources */,
 				846558E72693892200BFED33 /* Splash.storyboard in Resources */,
+				84AB560926979520001D7476 /* Detail.storyboard in Resources */,
 				84AAC6D6269635B8001BCD67 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +411,7 @@
 			files = (
 				84CF180D269602E1003C78D1 /* MetahumanRepository.swift in Sources */,
 				84CF18072695FF7B003C78D1 /* Marvel_model.swift in Sources */,
+				84AB560126978B3B001D7476 /* DetailViewController.swift in Sources */,
 				846558E42693892200BFED33 /* HomeTableViewController.swift in Sources */,
 				84CF181526961708003C78D1 /* SplashViewController.swift in Sources */,
 				846558E02693892200BFED33 /* AppDelegate.swift in Sources */,
