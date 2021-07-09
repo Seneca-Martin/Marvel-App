@@ -113,7 +113,7 @@
         <!--Heroes-->
         <scene sceneID="H90-O2-gCO">
             <objects>
-                <viewController title="Heroes" id="4hi-cq-Y7k" customClass="HomeTableViewController" customModule="Marvel_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Heroes" modalTransitionStyle="flipHorizontal" id="4hi-cq-Y7k" customClass="HomeTableViewController" customModule="Marvel_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8gJ-yp-Upq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,7 +150,7 @@
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suv-81-kQX">
                                                                             <rect key="frame" x="329" y="0.0" width="33" height="16"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                            <color key="textColor" systemColor="systemPinkColor"/>
+                                                                            <color key="textColor" red="0.94174333759999995" green="0.21397339679999999" blue="0.44619501350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -222,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="1123" y="-137"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Marvel-->
         <scene sceneID="ynP-Oa-5iQ">
             <objects>
-                <tabBarController id="t9E-oE-7pV" sceneMemberID="viewController">
+                <tabBarController title="Marvel" id="t9E-oE-7pV" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7LO-oe-52M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -242,7 +242,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f3N-bY-jFZ"/>
+        <segue reference="8TH-gD-oZf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ic_tab_heroes" width="16" height="17"/>

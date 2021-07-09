@@ -19,17 +19,21 @@ class HomeTableViewController: UIViewController {
     private let segueToDetail = "SEGUE_FROM_HOME_TO_DETAIL"
     
     
+    
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Heroes"
         // Do any additional setup after loading the view.
         
+        //navigationItem.title = "Heroes"
         tableView.delegate = self
         tableView.dataSource = self
         
         loadData()
         tableView.reloadData()
     }
+    
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

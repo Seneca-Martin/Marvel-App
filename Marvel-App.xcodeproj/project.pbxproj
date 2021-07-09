@@ -60,6 +60,7 @@
 		846559032693892500BFED33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A0E97D269820C300297912 /* VillainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTableViewCell.swift; sourceTree = "<group>"; };
 		84A0E9822698231500297912 /* VillainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainTableViewController.swift; sourceTree = "<group>"; };
+		84A0E98726984F1400297912 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84AAC6D5269635B8001BCD67 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		84AB55F22696F746001D7476 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 		84AB560026978B3B001D7476 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 		846558DE2693892200BFED33 /* Marvel-App */ = {
 			isa = PBXGroup;
 			children = (
+				84A0E98726984F1400297912 /* README.md */,
 				84A73B652695F1FC00970C38 /* App */,
 				84A73B672695F23500970C38 /* Resources */,
 				84CF18042695FE9A003C78D1 /* Domain */,

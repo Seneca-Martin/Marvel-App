@@ -24,6 +24,7 @@ class DetailViewController: UIViewController {
     // MARK: - Lifecycle
         override func viewDidLoad() {
             super.viewDidLoad()
+            title = "Metahumano"
             update(image: metahuman?.image)
             update(name: metahuman?.name)
             update(power: metahuman?.power)
@@ -44,6 +45,12 @@ class DetailViewController: UIViewController {
     
     private func update(image: String?) {
         heroImage.image = UIImage(named: image ?? "")
+        
+        heroImage.layer.cornerRadius = 4.0
+        heroImage.layer.shadowColor = UIColor.gray.cgColor
+        heroImage.layer.shadowOffset = CGSize.zero
+        heroImage.layer.shadowOpacity = 0.9
+        heroImage.layer.shadowRadius = 4.0
     }
     
     private func update(name: String?) {

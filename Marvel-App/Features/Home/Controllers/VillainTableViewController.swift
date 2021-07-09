@@ -22,6 +22,7 @@ class VillainTableViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Villanos"
         // Do any additional setup after loading the view.
         
         tableView.delegate = self
